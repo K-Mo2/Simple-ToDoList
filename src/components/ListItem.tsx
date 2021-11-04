@@ -1,18 +1,13 @@
 import React from "react";
-import { RefactorTriggerReason } from "typescript";
-import Todo from "../models/todo";
+
 import classes from "./ListItem.module.css";
 
-const ListItem: React.FC<{ item: Todo; onRemoveTodo: () => void }> = (
+const ListItem: React.FC<{ text: string; onRemoveTodo: () => void }> = (
   props
 ) => {
   return (
-    <li
-      className={classes.item}
-      key={props.item.id}
-      onClick={props.onRemoveTodo}
-    >
-      {props.item.text}
+    <li className={classes.item} onClick={props.onRemoveTodo}>
+      {props.text}
     </li>
   );
 };
