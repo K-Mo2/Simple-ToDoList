@@ -12,7 +12,7 @@
 
 This is a simple To-Do web app for practising Typescript integrated to React using the core concepts of both Typescript and React.
 
-The user can add add items to the to-do list as well as removing them and in bith cases changes appear on the page.
+The user can add add items to the to-do list as well as removing them and in both cases changes appear on the page.
 
 ## Tchnologies used
 
